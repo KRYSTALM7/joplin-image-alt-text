@@ -63,13 +63,16 @@ src/
 | Clear Cache | Forces re-labelling of all images on next scan |
 
 ## Development
+
+Built with TypeScript and bundled with Webpack. No framework — just the Joplin plugin API.
 ```bash
-npm install
-npm run dev
+npm install       # install dependencies
+npm run dev       # watch mode, outputs to dist/
+npm run build     # production build
 ```
 
 Requires Joplin desktop running with the plugin loaded from `dist/`.
 
 ## License
 
-MIT
+[MIT](./LICENSE)

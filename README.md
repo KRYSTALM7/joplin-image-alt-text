@@ -68,7 +68,7 @@ Built with TypeScript and bundled with Webpack. No framework — just the Joplin
 ```bash
 npm install       # install dependencies
 npm run dev       # watch mode, outputs to dist/
-npm run build     # production build
+npm run build   
 ```
 
 Requires Joplin desktop running with the plugin loaded from `dist/`.
